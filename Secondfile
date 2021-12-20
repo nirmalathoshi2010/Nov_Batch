@@ -1,0 +1,18 @@
+public class Final_Example {   //Final Class
+	final int a=100;                 //Final Variable
+	public void method()
+	{
+		int b=a+100;
+		System.out.println(b);
+	}
+	public final void method1()      //Final method
+	{
+		System.out.println("This is final method");
+	}
+	
+	public static void main(String[] args) {
+		Final_Example f=new Final_Example();
+		f.method();
+		f.method1();
+	}
+}
